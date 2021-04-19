@@ -1,6 +1,7 @@
 // import Counter from './components/Counter';
 // import UseEffect from './hooks/UseEffect';
-import UseMemo from './hooks/UseMemo';
+// import UseMemo from './hooks/UseMemo';
+import UseCallback from './hooks/UseCallback';
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
       <h3>Hello World</h3>
       {/* <Counter /> */}
       {/* <UseEffect /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <UseCallback />
     </div>
   );
 }

@@ -1,10 +1,12 @@
 import { Fragment, useState } from 'react';
 
 const Counter = () => {
-  const [counter, setCounter] = useState(() => {
-    console.log('run function');
+  const init = () => {
+    console.log('run every time');
     return 4;
-  });
+  };
+
+  const [counter, setCounter] = useState(() => init());
 
   const dec = () => {
     setCounter((prevState) => prevState - 1);

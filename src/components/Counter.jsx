@@ -1,7 +1,10 @@
 import { Fragment, useState } from 'react';
 
 const Counter = () => {
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(() => {
+    console.log('run function');
+    return 4;
+  });
 
   const dec = () => {
     setCounter((prevState) => prevState - 1);

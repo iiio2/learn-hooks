@@ -1,7 +1,9 @@
 // import Counter from './components/Counter';
 // import UseEffect from './hooks/UseEffect';
 // import UseMemo from './hooks/UseMemo';
-import UseCallback from './hooks/UseCallback';
+// import UseCallback from './hooks/UseCallback';
+
+import UseRef from './hooks/UseRef';
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
       {/* <Counter /> */}
       {/* <UseEffect /> */}
       {/* <UseMemo /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
+      <UseRef />
     </div>
   );
 }
